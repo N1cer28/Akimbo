@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "829837882099",
+    "project_id": "akimbo-e8ce2",
+    "storage_bucket": "akimbo-e8ce2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829837882099:android:f3bcb8a21045f6c0643d86",
+        "android_client_info": {
+          "package_name": "com.example.akimbo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829837882099-gvit6j96egbtclluhfn32o1ufidq958e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRn3YFtZxQpIvT8zL5lgma8qcmf6W_U7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829837882099-gvit6j96egbtclluhfn32o1ufidq958e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

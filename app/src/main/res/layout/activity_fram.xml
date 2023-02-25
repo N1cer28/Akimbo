@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_background"
+    android:layout_height="match_parent"
+    tools:context=".fist_page.fist_page.framActivity">
+
+    <RelativeLayout
+        android:id="@+id/upper_bg"
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+
+
+        <TextView
+            android:id="@+id/backPok"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/Личный_кабинет"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/free_12_60"
+            android:textSize="24sp"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="135dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/_30_11_2023"
+            android:textColor="#7E000000"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/knopki"
+        android:layout_height="70dp"
+        android:layout_below="@id/upper_bg"
+        >
+
+        <Button
+            android:id="@+id/prodlit"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="#ff0000"
+            android:text="Продлить"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/zamor"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#ff0000"
+            android:text="Заморозить"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/knopki"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/uslugi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Услуги"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/com_zan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Коммерческое занятие: 1"
+            android:textSize="20sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/per_zan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="персональная тренировка: 1"
+            android:textSize="20sp"
+            android:layout_marginTop="160dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/zan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Занятия"
+            android:textSize="20sp"
+            android:layout_marginTop="220dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

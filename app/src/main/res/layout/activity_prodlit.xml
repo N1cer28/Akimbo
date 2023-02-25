@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".fist_page.fist_page.prodlitActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/upper_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/backPok"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text=" ⇐ Абонимент"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/fist"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/backPok"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Телефон для связи"
+            android:textColor="#7E000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fist"
+            android:layout_marginHorizontal="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+
+        <TextView
+            android:id="@+id/second"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTextPersonName1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Ваши ФИО (польностью)"
+            android:textColor="#7E000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second"
+            android:layout_marginHorizontal="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/third"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTextPersonName2"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="номер карты"
+            android:textColor="#7E000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/third"
+            android:layout_marginHorizontal="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTextPersonName3"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#ff0000"
+            android:text="Отправить"
+            android:textColor="@color/white"
+            app:cornerRadius="40dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
